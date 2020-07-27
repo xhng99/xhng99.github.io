@@ -1,97 +1,64 @@
 /* CSS Document */
-body{
-	margin: 0 auto;
-	padding: 0;
-	font-family: Arial;
-}
-#wrapper{
-	width: 1000px;
-	height: 300px;
-	margin: 0 auto 0 auto;
-}
-.header{
-	height: 30px;
-}
-.logo{
-	height: 50px;
-	background: #FFFFFF;
+.body{
+	background: url("blog/baitap/img/bg-masthead.jpg");
+	height: 700px;
+	align-items: center;
+	justify-content: center;
 	display: flex;
-	align-content: center;
+}
+.form-control{
+	width: 600px;
+	height: 40px;
+}
+.build{
+	width: 800px;
+}
+.icon-bot{
+	font-size: 500%;
+	color: blue;
+}
+.A{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.row{
+	display: flex;
+	align-items: center;
 	justify-content: center;
 }
-.logo img{
-	height: 50px;
-		
+.pic{
+	background: url("blog/baitap/img/bg-showcase-1.jpg");
+	height: 600px;
 }
-.menu{
-	height: 50px;
-	width: 800px;
-	padding-left: 200px;
-	background: #A003CD;
+.pictwo{
+	background: url("blog/baitap/img/bg-showcase-2.jpg");
+	height: 600px;
 }
-.menu ul{
-	list-style: none;
+.pppppp{
+	padding-left: 60px;
 }
-.menu ul li a{
-	text-decoration: none;
-	color: white;
-}
-.menu ul li{
-	float: left;
-	width: 130px;
-	height: 50px;
-	background: #A003CD;
-	text-align: center;
-	line-height:  50px;
-}
-.content{
-	height: 950px;
-}
-.ct-left{
-	width: 1000px;
-	float: left;
-	height: 420px;
-	padding: auto;
-	margin-top: 10px;
-}
-.ct-left>h1{
-	text-align: center;
-	font-size: 30px;
-	color:#A003CD;
-}
-.ct-left>.text{
-	width: 610px;
-	text-align: left;
-	margin-left: 20px;
-}
-.ct-left>.text>p{
-	font-size: 15px;
+.picthree{
+	background: url("blog/baitap/img/bg-showcase-3.jpg");
+	height: 600px;
 }
 .img img{
-	height: 427px;
-	width: 640px;
+	width: 200px;
+	clip-path: circle(50% at 50% 50%);
 }
-.img{
-	width: 1000px;
-	height: 500px;
+.body-2{
+	background: url("blog/baitap/img/bg-masthead.jpg");
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	height: 400px;
 	display: flex;
-	align-content: center;
-	justify-content: center;
-	background: white;
-}
-.footer{
-	width: 1000px;
-	height: 70px;
-	background: #A003CD;
-	clear: both;
-	display: flex;
-	align-content: center;
+	align-items: center;
 	justify-content: center;
 }
-.dangky{
-	text-decoration: none;
-	color: white
+.B{
+	height:40px;
 }
-.dangky:hover{
-	color: #222222;
+.footerr{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 150px;	
 }
