@@ -1,0 +1,76 @@
+/* CSS Document */
+.body{
+	background: url("blog/baitap/img/bg-masthead.jpg");
+	height: 700px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.form-control{
+	width: 600px;
+	height: 40px;
+}
+.build{
+	width: 800px;
+}
+.icon-bot{
+	font-size: 500%;
+	color: blue;
+}
+.A{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pic{
+	background: url("blog/baitap/img/bg-showcase-1.jpg");
+	height: 600px;
+}
+.pictwo{
+	background: url("blog/baitap/img/bg-showcase-2.jpg");
+	height: 600px;
+}
+.pppppp{
+	padding-left: 60px;
+}
+.picthree{
+	background: url("blog/baitap/img/bg-showcase-3.jpg");
+	height: 600px;
+}
+.img img{
+	width: 200px;
+	clip-path: circle(50% at 50% 50%);
+}
+.body-2{
+	background: url("blog/baitap/img/bg-masthead.jpg");
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.B{
+	height:40px;
+}
+.footerr{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 150px;	
+}
+.icon-bot-2{
+	font-size: 300%;
+	color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 40px;
+}
+.iconfooter{
+	font-size: 50px;
+	
+}
