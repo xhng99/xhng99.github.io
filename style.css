@@ -1,0 +1,22 @@
+/* CSS Document */
+.banner{
+	background: url("img/bg-masthead.jpg");
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form-control{
+	width: 600px;
+	height: 40px;
+}
+
+.banner-2{
+	background: url("img/bg-masthead.jpg");
+	background-repeat: no-repeat;
+	background-position: center 50%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
