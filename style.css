@@ -6,10 +6,6 @@
 	align-items: center;
 	justify-content: center;
 }
-.form-control{
-	width: 600px;
-	height: 40px;
-}
 
 .banner-2{
 	background: url("img/bg-masthead.jpg");
@@ -19,4 +15,37 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media (max-width:414px){
+	.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+	.mb-auto, .my-auto {
+    margin-bottom: 15px!important;
+	margin-top: 15px!important;
+	}
+	.h1, h1 {
+    font-size: 2rem;
+}
+	.mb-auto, .my-auto {
+    margin-bottom: 5px!important;
+    margin-top: 5px!important;
+}
+}
+#mybtn{
+display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
 }
