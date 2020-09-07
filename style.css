@@ -1,51 +1,183 @@
+@charset "uft-8";
 /* CSS Document */
-.banner{
-	background: url("img/bg-masthead.jpg");
-	height: 700px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+*{
+	padding: 0;
+	margin: 0;
 }
-
-.banner-2{
-	background: url("img/bg-masthead.jpg");
-	background-repeat: no-repeat;
-	background-position: center 50%;
+header{
+	background-image: url("img/v285batch1-fah-02_2.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+}
+.name h2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:#D63F57;
+	font-size: 2cm;
+	font-weight: 600;
+}
+.infor{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.col-lg-6 img{
+	padding-left: 45px;
+	height: 350px;
+	width: auto;
+	padding-top: 10px;
+}
+.col-lg-6 p{
+	text-align: justify;
+	padding-right: 45px;
+}
+.col-lg-6 h2{
+	color: #D63F57;
+	text-align: justify;
+}
+.text-center{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.text-center h2{
+	color:#D63F57;
+}
+.img img{
+	width: 200px;
+	clip-path: circle(50% at 50% 50%);
+}
+.iconindex{
+	color:aliceblue;
+	padding: 3em 0 0 0;
+	align-items: center;
+}
+.tabicon{
+	padding-top: 30px;
+}
+.iconss{
+	font-size: 50px;
+}
+.meunu2{
+	padding-bottom: 5%;
+}
+.happy{
+	background-color:#D63F57;	
+}
+.portfolio{
+	text-align: center;
+	color: #D63F57;
+	padding-top: 50px;
+}
+.menu{
+	font-size: 18px;
+}
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+.menu a {
+  text-decoration-color: aqua;
+  color: black;
+  display: block;
+}
+.menu a:hover {
+  color: black;
+}
+.conten {
+	width: 1000px;
+	margin-left: 85px;
+	display: grid;
+	grid-template-columns: 400px 400px 400px ;
+	grid-template-rows: 400px 400px;
+	grid-row-gap: 40px;
+	grid-column-gap: 40px;
+}
+.item img{
+	width: 400px;
 	height: 400px;
+}
+.icontt{
+	font-size: 45px !important;
+	color:#F1F1F1;
+	background: #D63F57;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	padding-top: 8%
+}
+.thongtin{
+	margin-top: 5%;
+}
+.thongtin h1{
+	color:#D63F57;
+}
+.hihi{
+	width: 100%;
+    height: 45px;
+    border: 0;
+    color: #000;
+    border-bottom: solid 1px #dfdfdf;
+    font-size: 13px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.haha{
+	width: 100%;
+    border: 0;
+    border-bottom: solid 2px #D63F57;
+    font-size: 13px;
+    padding: 20px 0 0 10px;
+    height: 119px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.huhu {
+	padding: 10px 50px;
+    font-size: 12px;
+    background: none;
+    border: 2px thin;
+    border-radius: 50px;
+	margin: auto;
+    margin-top: 30px;
+    display: block;   
+}
+.iconcs{
+	color: #D63F57;
+	margin-left: 45px;
+}
+.pppppp a{
+	color: black;
+}
+.footer{
+	padding-top: 40px;
+	padding-bottom:40px;
+	padding-left: 150px;	
+	color: black;
+}
+.icon-bot-2{
+	font-size: 300%;
+	color: #D63F57;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-left: 40px;
 }
-
-@media (max-width:414px){
-	.img-fluid {
-    max-width: 50%;
-    height: auto;
+.iconfooter{
+	font-size: 50px;
 }
-	.mb-auto, .my-auto {
-    margin-bottom: 15px!important;
-	margin-top: 15px!important;
+@media (max-width:375px){
+	.item img{
+		width: 20px;
+		height: 20px;
 	}
-	.h1, h1 {
-    font-size: 2rem;
-}
-	.mb-auto, .my-auto {
-    margin-bottom: 5px!important;
-    margin-top: 5px!important;
-}
-}
-#mybtn{
-display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
 }
